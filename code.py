@@ -7,6 +7,9 @@ while True:
         if guess != int(player):
             print(guess)
             continue
+        else:
+            break
     except:
         print("wrong type")
         break
+
